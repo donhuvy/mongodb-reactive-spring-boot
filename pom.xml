@@ -9,13 +9,13 @@
 		<version>3.0.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bezkoder</groupId>
+	<groupId>com.nttdata_vds</groupId>
 	<artifactId>spring-boot-mongodb-reactive</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>spring-boot-mongodb-reactive</name>
 	<description>Spring Boot and MongoDB Reactive example: CRUD Rest API</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>22</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -39,7 +39,11 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>

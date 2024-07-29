@@ -1,9 +1,8 @@
-package com.bezkoder.spring.mongodb.reactive.repository;
+package com.nttdata_vds.repository;
 
+import com.nttdata_vds.model.Tutorial;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
-
-import com.bezkoder.spring.mongodb.reactive.model.Tutorial;
 
 import reactor.core.publisher.Flux;
 

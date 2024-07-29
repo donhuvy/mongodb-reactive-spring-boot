@@ -1,4 +1,4 @@
-package com.bezkoder.spring.mongodb.reactive;
+package com.nttdata_vds;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

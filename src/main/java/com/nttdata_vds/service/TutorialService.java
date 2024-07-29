@@ -1,12 +1,12 @@
-package com.bezkoder.spring.mongodb.reactive.service;
+package com.nttdata_vds.service;
 
 import java.util.Optional;
 
+import com.nttdata_vds.model.Tutorial;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bezkoder.spring.mongodb.reactive.model.Tutorial;
-import com.bezkoder.spring.mongodb.reactive.repository.TutorialRepository;
+import com.nttdata_vds.repository.TutorialRepository;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
