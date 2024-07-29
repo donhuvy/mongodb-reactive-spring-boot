@@ -3,6 +3,10 @@ package com.nttdata_vds.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * Course entity.
+ *
+ */
 @Document
 public class Tutorial {
 

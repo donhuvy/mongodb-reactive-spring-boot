@@ -4,6 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.reactive.config.EnableWebFlux;
 
+/**
+ * Entry point of web-app.
+ */
 @EnableWebFlux
 @SpringBootApplication
 public class SpringBootMongodbReactiveApplication {
