@@ -8,8 +8,8 @@ import org.springframework.web.reactive.config.EnableWebFlux;
 @SpringBootApplication
 public class SpringBootMongodbReactiveApplication {
 
-  public static void main(String[] args) {
-    SpringApplication.run(SpringBootMongodbReactiveApplication.class, args);
-  }
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootMongodbReactiveApplication.class, args);
+    }
 
 }
