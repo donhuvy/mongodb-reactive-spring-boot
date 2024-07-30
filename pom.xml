@@ -12,10 +12,10 @@
 	</parent>
 
 	<groupId>com.nttdata_vds</groupId>
-	<artifactId>spring-boot-mongodb-reactive</artifactId>
+	<artifactId>mongodb_sample</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>spring-boot-mongodb-reactive</name>
-	<description>Spring Boot and MongoDB Reactive example: CRUD Rest API</description>
+	<name>mongodb_sample</name>
+	<description>mongodb_sample</description>
 	<properties>
 		<java.version>22</java.version>
 		<maven.compiler.source>22</maven.compiler.source>
@@ -49,8 +49,6 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-
     </dependencies>
 
 	<build>
@@ -61,5 +59,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
