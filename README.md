@@ -30,3 +30,4 @@ Get all courses
 ```bash
 curl --location 'http://localhost:8080/api/tutorials'
 ```
+

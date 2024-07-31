@@ -71,7 +71,6 @@ public class TutorialService {
                         tutorial.setId(id);
                         return tutorialRepository.save(tutorial);
                     }
-
                     return Mono.empty();
                 });
     }
